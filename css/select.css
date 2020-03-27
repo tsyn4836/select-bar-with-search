@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.select {
+    width: 180px;
+    border:1px solid #4996f1;
+}
+
+.select-caption{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #4996f1;
+    cursor: pointer;
+}
+.select-value{
+    padding-left: 3px;
+}
+
+.select-arrow {
+    float: right;
+    clear: both;
+    height: 100%;
+    padding: 0 10px;
+    color:#fff;
+    background-color: #4996f1;
+}
+.select-body{
+    display: none;
+    max-height: 200px;
+    overflow: auto;
+}
+.select-filter{
+    box-sizing: border-box;
+    width: 150px;
+    margin: 5px;
+}
+
+.optgroup{
+    margin-bottom: 5px;
+}
+
+.optgroup-label{
+    text-indent: 5px;
+    font-weight: bold;
+    /* font-size: large; */
+    cursor: default;
+}
+
+.option{
+    text-indent: 1em;
+    padding:3px 0;
+    cursor: pointer;
+}
+
+.option:hover{
+    color:#fff;
+    background-color: #4996f1;
+}
